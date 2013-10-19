@@ -3,11 +3,12 @@
 	"version": "1.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mutsotso/dplay.git"
+        "url": "https://github.com/mutsotso/dnplay.git"
     },
 	"dependencies": {
         "express": "*",
-        "jade": "*"
+        "jade": "*",
+        "http-auth": "*"
 	},
 	"engines": {
 		"node": "0.10.x",
