@@ -2,7 +2,9 @@
 	"name": "app",
 	"version": "1.0.0",
 	"dependencies": {
-		"dojo": "~1.8"
+		"dojo": "~1.8",
+        "express": "*",
+        "jade": "*"
 	},
 	"main": "server",
 	"licenses": [

@@ -1,7 +1,13 @@
 {
 	"name": "dojo-node-boilerplate",
 	"version": "1.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mutsotso/dplay.git"
+    },
 	"dependencies": {
+        "express": "*",
+        "jade": "*"
 	},
 	"engines": {
 		"node": "0.10.x",
