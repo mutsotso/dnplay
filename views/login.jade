@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    form(name="login", action="/login", method="post")
+        input(type="text", name="username", placeholder="Username", autocomplete="off")
+        input(type="password", name="password", placeholder="Password")
+        input(type="submit", value="login")
+
+    if messages
+        p.error #{messages}
