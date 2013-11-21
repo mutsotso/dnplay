@@ -8,7 +8,11 @@
 	"dependencies": {
         "express": "*",
         "jade": "*",
-        "http-auth": "*"
+        "http-auth": "*",
+        "mongoose": "~3.8.0",
+        "bcrypt": "*",
+        "passport": "*",
+        "passport-local": "*"
 	},
 	"engines": {
 		"node": "0.10.x",
